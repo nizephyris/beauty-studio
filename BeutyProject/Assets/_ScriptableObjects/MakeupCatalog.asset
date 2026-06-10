@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aebe2ce0fb444542903564771aaad54, type: 3}
+  m_Name: MakeupCatalog
+  m_EditorClassIdentifier: 
+  _playerDisplayName: "\u0410\u043D\u043D\u0430 \u0418\u0432\u0430\u043D\u043E\u0432\u0430"
+  _botDisplayNames:
+  - "\u042D\u043B\u0435\u043E\u043D\u043E\u0440\u0430 \u0425\u0430\u0444\u0438\u0437\u043E\u0432\u0430"
+  - "\u041C\u0430\u0440\u0438\u044F \u0421\u043E\u043A\u043E\u043B\u043E\u0432\u0430"
+  - "\u041E\u043B\u044C\u0433\u0430 \u041F\u0435\u0442\u0440\u043E\u0432\u0430"
+  - "\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0412\u043E\u0440\u043E\u043D\u0438\u043D\u0430"
+  _stages:
+  - _type: 0
+    _colorOptions:
+    - _overlaySprite: {fileID: 21300000, guid: 9a10d2edee949074abf215e64d90e911, type: 3}
+      _swatchColor: {r: 0, g: 0.5882353, b: 0.4784314, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: d3c054a697544b34891a8b0be3d318a5, type: 3}
+      _swatchColor: {r: 0.06666667, g: 0.5764706, b: 0.73333335, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: 287d37d3565d742459cffe69c2fd804f, type: 3}
+      _swatchColor: {r: 0.63529414, g: 0.34117648, b: 0.5019608, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: 1875f666428036545a5c6ec89fdb7472, type: 3}
+      _swatchColor: {r: 0.5019608, g: 0.15686275, b: 0.15686275, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+  - _type: 1
+    _colorOptions:
+    - _overlaySprite: {fileID: 21300000, guid: 4b79199293faa9c4c9e5d02517b68c4d, type: 3}
+      _swatchColor: {r: 0.7905838, g: 0.8867924, b: 0.8699137, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: 82fe8f7e9ac7196449097fb7e80fee3e, type: 3}
+      _swatchColor: {r: 0.078431375, g: 0.2784314, b: 0.10980393, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: 361035b586c954e4f8a933f2942e947a, type: 3}
+      _swatchColor: {r: 0, g: 0, b: 0, a: 1}
+      _backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+      _hairLength: 0
+  - _type: 2
+    _colorOptions:
+    - _overlaySprite: {fileID: 21300000, guid: b811366de38ed714e9b46928b2ab3113, type: 3}
+      _swatchColor: {r: 0.08627451, g: 0.5176471, b: 0.39607847, a: 1}
+      _backgroundColor: {r: 0.08627451, g: 0.5176471, b: 0.39607847, a: 1}
+      _hairLength: 1
+    - _overlaySprite: {fileID: 21300000, guid: af06e3c226cdb9c4b9fa1d276c325544, type: 3}
+      _swatchColor: {r: 0.5254902, g: 0.054901965, b: 0.011764707, a: 1}
+      _backgroundColor: {r: 0.5254902, g: 0.054901965, b: 0.011764707, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: cca2fd1ad260ac3419e0cd0d035ac9bd, type: 3}
+      _swatchColor: {r: 0.8078432, g: 0.27058825, b: 0.5176471, a: 1}
+      _backgroundColor: {r: 0.8078432, g: 0.27058825, b: 0.5176471, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: 008a1f89dffe4a34cb9e41d6b8d67340, type: 3}
+      _swatchColor: {r: 0.7607844, g: 0.70980394, b: 0.5254902, a: 1}
+      _backgroundColor: {r: 0.7607844, g: 0.70980394, b: 0.5254902, a: 1}
+      _hairLength: 1
+    - _overlaySprite: {fileID: 21300000, guid: 31d75c01704f1cd468bbf8653c277299, type: 3}
+      _swatchColor: {r: 0.36862746, g: 0.25490198, b: 0.16862746, a: 1}
+      _backgroundColor: {r: 0.36862746, g: 0.25490198, b: 0.16862746, a: 1}
+      _hairLength: 0
+    - _overlaySprite: {fileID: 21300000, guid: dca3ee3cf7b36634385addbf67dd02f1, type: 3}
+      _swatchColor: {r: 0.14117648, g: 0.54901963, b: 0.7137255, a: 1}
+      _backgroundColor: {r: 0.14117648, g: 0.54901963, b: 0.7137255, a: 1}
+      _hairLength: 1
+  _coupons:
+  - _type: "\u041F\u0420\u041E\u041C\u041E\u041A\u041E\u0414"
+    _mainText: "-30% \u0441\u043A\u0438\u0434\u043A\u0430"
+    _additionalText: "\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u043D\u0430
+      \u0437\u0430\u043A\u0430\u0437 \u043E\u0442 5 000 \u0420"
+    _price: 150
+  - _type: "\u041F\u0420\u041E\u0411\u041D\u0418\u041A"
+    _mainText: "5 \u0446\u0432\u0435\u0442\u043E\u0432 \u043F\u043E\u043C\u0430\u0434\u044B"
+    _additionalText: "\u043D\u0430 \u0432\u044B\u0431\u043E\u0440 \u0438\u0437 \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0430"
+    _price: 100
+  - _type: "\u041F\u0420\u041E\u041C\u041E\u041A\u041E\u0414"
+    _mainText: "-15% \u043D\u0430 \u0443\u0445\u043E\u0434"
+    _additionalText: "\u0434\u043B\u044F \u043F\u0435\u0440\u0432\u043E\u0433\u043E
+      \u0437\u0430\u043A\u0430\u0437\u0430"
+    _price: 200
+  _defaultBackgroundColor: {r: 0.36862746, g: 0.25490198, b: 0.16862746, a: 1}
+  _makeupDurationSeconds: 150
+  _makeupThemes:
+  - _title: Icy bimbo winter
+    _description: "\u0421\u043E\u0437\u0434\u0430\u0439 \u0445\u043E\u043B\u043E\u0434\u043D\u044B\u0439,
+      \u0431\u043B\u0435\u0441\u0442\u044F\u0449\u0438\u0439 \u043E\u0431\u0440\u0430\u0437
+      \u0437\u0438\u043C\u043D\u0435\u0439 \u0434\u0438\u0432\u044B! \u0422\u0432\u043E\u044F
+      \u0446\u0435\u043B\u044C \u2014 \u043F\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u0442\u044C
+      \u043C\u043E\u0434\u0435\u043B\u044C \u0432 \u043B\u0435\u0434\u044F\u043D\u0443\u044E
+      \u043A\u0443\u043A\u043E\u043B\u043A\u0443!"
+  - _title: Cherry velvet night
+    _description: "\u0421\u043E\u0431\u0435\u0440\u0438 \u0441\u043C\u0435\u043B\u044B\u0439
+      \u0432\u0435\u0447\u0435\u0440\u043D\u0438\u0439 \u043E\u0431\u0440\u0430\u0437
+      \u0441 \u043D\u0430\u0441\u044B\u0449\u0435\u043D\u043D\u044B\u043C\u0438 \u0432\u0438\u0448\u043D\u0451\u0432\u044B\u043C\u0438
+      \u043E\u0442\u0442\u0435\u043D\u043A\u0430\u043C\u0438! \u041F\u0443\u0441\u0442\u044C
+      \u0433\u0443\u0431\u044B \u0438 \u0432\u043E\u043B\u043E\u0441\u044B \u0441\u0438\u044F\u044E\u0442
+      \u0441\u0442\u0440\u0430\u0441\u0442\u044C\u044E!"
+  - _title: Pink bubble dream
+    _description: "\u041B\u0451\u0433\u043A\u0438\u0439 \u0438\u0433\u0440\u0438\u0432\u044B\u0439
+      \u043C\u0430\u043A\u0438\u044F\u0436 \u0432 \u043D\u0435\u0436\u043D\u043E-\u0440\u043E\u0437\u043E\u0432\u044B\u0445
+      \u0442\u043E\u043D\u0430\u0445! \u0421\u043E\u0437\u0434\u0430\u0439 \u043E\u0431\u0440\u0430\u0437
+      \u0441\u043B\u0430\u0434\u043A\u043E\u0439 \u0438 \u0440\u043E\u043C\u0430\u043D\u0442\u0438\u0447\u043D\u043E\u0439
+      \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u044B!"
+  - _title: Emerald forest fairy
+    _description: "\u0417\u0435\u043B\u0451\u043D\u044B\u0435 \u0438 \u0438\u0437\u0443\u043C\u0440\u0443\u0434\u043D\u044B\u0435
+      \u043E\u0442\u0442\u0435\u043D\u043A\u0438 \u0434\u043B\u044F \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u043E\u0433\u043E
+      \u043E\u0431\u0440\u0430\u0437\u0430! \u0422\u0432\u043E\u044F \u0446\u0435\u043B\u044C
+      \u2014 \u043C\u0430\u043A\u0438\u044F\u0436 \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0439
+      \u043B\u0435\u0441\u043D\u043E\u0439 \u0444\u0435\u0438!"
